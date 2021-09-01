@@ -1,0 +1,25 @@
+<div id="specialchars" class="my-buttons" style="margin-top:10px; border-style:solid; border-width:1px; border-color:#aaaaaa; padding:1px; text-align:center; font-size:120%;">
+<p class="specialbasic" id="Standard">
+<charinsert><nowiki>|</nowiki></charinsert>
+<charinsert>[+]</charinsert> <charinsert>[[+]]</charinsert> <charinsert><nowiki>{{</nowiki>+<nowiki>}}</nowiki></charinsert>
+<charinsert>〈+〉</charinsert> <charinsert>《+》</charinsert> <charinsert>‘+’</charinsert> <charinsert>“+”</charinsert>
+<br />
+<charinsert>· … × ÷ ¹ ² ³ ½ € † ← → ° ′ ″ ―</charinsert>
+<charinsert><math>+</math></charinsert>
+<br />
+<charinsert><!--+--></charinsert>
+<charinsert><del>+</del></charinsert>
+<charinsert><ref>+</ref></charinsert>
+<charinsert><nowiki><references /></nowiki></charinsert>
+<br />
+<charinsert>{{풀기:+}}</charinsert>
+<charinsert>[[분류:+]]</charinsert>
+<charinsert><nowiki>#넘겨주기 [[+]]</nowiki></charinsert>
+<charinsert><nowiki>{{</nowiki>기본정렬:+<nowiki>}}</nowiki></charinsert>
+<br />
+<charinsert><nowiki>{{토막글|</nowiki>+<nowiki>}}</nowiki></charinsert>
+<charinsert><nowiki>{{IPA|</nowiki>+<nowiki>}}</nowiki></charinsert>
+<charinsert><nowiki>{{lang||</nowiki>+<nowiki>}}</nowiki></charinsert>
+<charinsert><nowiki>{{llang||</nowiki>+<nowiki>}}</nowiki></charinsert>
+</p>
+</div>

@@ -1,0 +1,658 @@
+/* 1. 전역 */
+/* 1-1. Liberty 스킨 Footer 제거 */
+.designedbylibre {
+  display: none;
+}
+/* 1-1 */
+/* /1 */
+
+/* 2. 다크 테마 보완 */
+/* 2-1. 전역 */
+/* 2-1-1. 입력 폼 */
+select,
+input:not([type="button"]):not([type="checkbox"]):not([type="submit"]):not([class="oo-ui-inputWidget-input"]),
+.mw-ui-button,
+.mw-ui-button:visited,
+.mw-ui-button:focus,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
+.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input,
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle,
+.oo-ui-dropdownWidget.oo-ui-widget-enabled.oo-ui-dropdownWidget-open
+  .oo-ui-dropdownWidget-handle,
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined
+  .oo-ui-tagMultiselectWidget-handle,
+.oo-ui-tagMultiselectWidget-handle
+  > .oo-ui-tagMultiselectWidget-content
+  > input {
+  background-color: #303030;
+  color: #ddd;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled
+  > .oo-ui-buttonElement-button:hover,
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:hover,
+.mw-ui-button:hover,
+.mw-ui-button:active {
+  background: #444;
+  color: #fff;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-disabled
+  > .oo-ui-buttonElement-button {
+  background-color: #444;
+  border-color: #444;
+  color: #fff;
+}
+/* 2-1-2. 글자 색 */
+a,
+.plainlinks a.external {
+  color: #63c7e6;
+}
+a.new {
+  color: #ff4747;
+}
+a:hover,
+a:focus,
+.plainlinks a.external:hover,
+.plainlinks a.external:focus {
+  color: #1eb5e1;
+}
+a.new:hover,
+a.new:focus {
+  color: #cc3939;
+}
+.mw-plusminus-pos {
+  color: #438228;
+}
+/* 2-1-3. fieldset 스크롤바 숨기기 */
+fieldset {
+  overflow-x: auto;
+}
+/* 2-1-4. 팝업창 색 */
+.oo-ui-window-content {
+  background-color: #222;
+}
+.oo-ui-window-content .oo-ui-messageDialog-message {
+  color: #ddd;
+}
+.oo-ui-window-content .oo-ui-textInputWidget .oo-ui-inputWidget-input {
+  background-color: #303030;
+  color: #ddd;
+}
+.oo-ui-menuSelectWidget {
+  background-color: #444;
+}
+.oo-ui-menuSelectWidget .oo-ui-menuOptionWidget.oo-ui-optionWidget {
+  color: #ddd;
+}
+.oo-ui-menuSelectWidget .oo-ui-menuOptionWidget.oo-ui-optionWidget-selected,
+.oo-ui-menuSelectWidget .oo-ui-menuOptionWidget.oo-ui-optionWidget-highlighted {
+  background-color: #303030;
+  color: #ddd;
+}
+.oo-ui-menuSelectWidget
+  .oo-ui-menuOptionWidget.oo-ui-optionWidget-selected.oo-ui-optionWidget-highlighted {
+  background-color: #303030;
+  color: #fff;
+}
+.ui-widget-header,
+.ui-widget-content {
+  background: #222;
+  color: #ddd;
+}
+.ui-dialog .ui-button {
+  background: #303030;
+  color: #aaa;
+}
+.ui-dialog .ui-button.ui-state-hover {
+  background: #222;
+  color: #ddd;
+}
+/* 2-1-5. Liberty 전역 배경, 선 색 */
+body,
+.Liberty,
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-footer
+  .label:hover {
+  background-color: #121212;
+}
+.dropdown-menu,
+.dropdown-item,
+div.mw-warning-with-logexcerpt,
+div.mw-lag-warn-high,
+div.mw-cascadeprotectedwarning,
+div#mw-protect-cascadeon,
+.editOptions,
+.Liberty .content-wrapper .liberty-footer,
+.Liberty .content-wrapper .liberty-content .liberty-content-header,
+.Liberty .content-wrapper .liberty-content .liberty-content-main,
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-content,
+.Liberty
+  .content-wrapper
+  .liberty-content
+  .liberty-content-main
+  table.infobox
+  th,
+.Liberty
+  .content-wrapper
+  .liberty-content
+  .liberty-content-main
+  table.wikitable
+  tr
+  > th,
+.Liberty .nav-wrapper .navbar .form-inline .btn,
+textarea,
+table.mw_metadata th,
+.mw-datatable th,
+.mw-datatable tr:hover td,
+.navbox,
+.navbox-subgroup,
+.navbox > tbody > tr:nth-child(even) > .navbox-list,
+#preferences,
+#preferences fieldset:not(.prefsection),
+#preferences div.mw-prefs-buttons,
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-footer
+  .label,
+.Liberty
+  .content-wrapper
+  .liberty-content
+  .liberty-content-header
+  .content-tools
+  .tools-btn:hover,
+.Liberty
+  .content-wrapper
+  .liberty-content
+  .liberty-content-header
+  .content-tools
+  .tools-btn:focus,
+.Liberty
+  .content-wrapper
+  .liberty-content
+  .liberty-content-header
+  .content-tools
+  .tools-btn:active,
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link.active,
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link:hover,
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link:focus {
+  background-color: #222;
+}
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-footer,
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item,
+#pagehistory li.selected,
+.mw-datatable td,
+.Liberty
+  .content-wrapper
+  .liberty-content
+  .liberty-content-main
+  table.wikitable
+  tr
+  > td,
+table.mw_metadata td,
+.navbox-list,
+.Liberty .content-wrapper .liberty-content .liberty-content-main table.infobox,
+.dropdown-divider {
+  background-color: #303030;
+}
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link.active::before
+  .Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link.active:hover::before {
+  background-color: #303030;
+  border-bottom: 2px solid #303030;
+}
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link:not(.active):hover::before {
+  background-color: #555;
+  border-bottom: 1px solid #555;
+}
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link {
+  color: #777;
+}
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link:hover,
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link:focus {
+  color: #aaa;
+}
+.Liberty
+  .content-wrapper
+  .liberty-sidebar
+  .liberty-right-fixed
+  .live-recent
+  .live-recent-header
+  .nav
+  .nav-item
+  .nav-link.active {
+  color: #ddd;
+}
+#filetoc {
+  border: 1px solid #777;
+  background-color: #333;
+}
+/* 2-1-6. 아이콘 색 */
+.oo-ui-iconElement-icon:not(.oo-ui-icon-check):not(.oo-ui-image-invert):not(.oo-ui-icon-feedback),
+.mw-mmv-filepage-buttons .mw-mmv-view-expanded.mw-ui-icon:before,
+.oo-ui-textInputWidget.oo-ui-widget-enabled
+  > .oo-ui-indicatorElement-indicator {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(16deg)
+    brightness(96%) contrast(109%);
+}
+.wikiEditor-ui-toolbar
+  .oo-ui-iconElement-icon:not(.oo-ui-icon-check):not(.oo-ui-image-invert):not(.oo-ui-icon-feedback) {
+  filter: none;
+}
+.client-js
+  .sortable:not(.jquery-tablesorter)
+  > *
+  > tr:first-child
+  > th:not(.unsortable),
+.jquery-tablesorter th.headerSort {
+  background-image: linear-gradient(transparent, transparent),
+    url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2221%22 height=%229%22 fill=%22white%22 viewBox=%220 0 21 9%22%3E %3Cpath d=%22M14.5 5l-4 4-4-4zm0-1l-4-4-4 4z%22/%3E %3C/svg%3E");
+}
+/* /2-1 */
+/* 2-2. 특수:환경설정, 특수:태그 */
+.oo-ui-tabSelectWidget-framed {
+  background-color: #222;
+  color: #ddd;
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive
+  > .oo-ui-buttonElement-button {
+  background-color: transparent;
+  color: #d33;
+}
+.oo-ui-buttonElement-frameless.oo-ui-widget-enabled.oo-ui-flaggedElement-destructive
+  > .oo-ui-buttonElement-button:hover {
+  background-color: transparent;
+  color: #ff4242;
+}
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget {
+  border-radius: 2px;
+  color: #ddd;
+}
+.oo-ui-tabSelectWidget-framed
+  .oo-ui-tabOptionWidget.oo-ui-widget-enabled:active {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #222;
+}
+.oo-ui-tabSelectWidget-framed
+  .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #222;
+}
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget .oo-ui-labelElement-label,
+.oo-ui-tabSelectWidget-framed
+  .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected
+  .oo-ui-labelElement-label {
+  border-bottom: none;
+}
+/* /2-2 */
+/* 2-3. 편집 모드 (?action=edit) */
+/* 2-3-1. 편집기 상단바 */
+html .wikiEditor-ui-toolbar,
+.wikiEditor-ui .ace-tm .ace_gutter,
+.codeEditor-status {
+  background-color: #999;
+  color: #222;
+}
+.wikiEditor-ui-toolbar .booklet .index div {
+  background-color: #555;
+  color: #aaa;
+}
+.wikiEditor-ui-toolbar .booklet .index .current {
+  background-color: #303030;
+  color: #ddd;
+}
+.wikiEditor-ui-toolbar .sections .section,
+.wikiEditor-ui-toolbar .booklet .page {
+  background-color: #999;
+}
+.wikiEditor-ui-toolbar .group .tool-select {
+  background-color: #555;
+}
+.wikiEditor-ui-toolbar .group .tool-select .label {
+  color: #ddd;
+}
+.wikiEditor-ui-toolbar .group .tool-select .options .option {
+  background-color: #303030;
+  color: #aaa;
+}
+.wikiEditor-ui-toolbar .group .tool-select .options .option:hover {
+  background-color: #555;
+  color: #ddd;
+}
+.wikiEditor-ui-toolbar .page-characters div span {
+  height: auto;
+  background-color: #555;
+  color: #ddd;
+}
+.wikiEditor-ui-toolbar .page-characters div span:hover {
+  background-color: #303030;
+  color: #fff;
+}
+.wikiEditor-ui-toolbar .tabs span.tab a,
+.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+  background-image: url(/extensions/WikiEditor/modules/images/toolbar/arrow-ltr.svg);
+  text-decoration: none;
+}
+.wikiEditor-ui-toolbar .tabs span.tab a.current,
+.wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+  background-image: url(/extensions/WikiEditor/modules/images/toolbar/arrow-down.svg);
+}
+/* 2-3-2. 편집기 내용 */
+.wikiEditor-ui .ace-tm {
+  background-color: #222;
+  color: #ddd;
+}
+.wikiEditor-ui .ace-tm .ace_constant,
+.wikiEditor-ui .ace-tm .ace_constant.ace_numeric {
+  color: rgb(10, 200, 255);
+}
+.wikiEditor-ui .ace-tm .ace_keyword {
+  color: rgb(0, 100, 255);
+}
+.wikiEditor-ui .ace-tm .ace_string {
+  color: #438228;
+}
+.ace-tm .ace_search {
+  background-color: #303030;
+  color: #ddd;
+}
+.ace-tm .ace_button {
+  border-color: #ddd;
+  color: #ddd;
+}
+.ace-tm .ace_searchbtn {
+  background-color: #444;
+  color: #ddd;
+}
+.ace-tm .ace_searchbtn_close {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(16deg)
+    brightness(96%) contrast(109%);
+}
+/* 2-3-3. 편집 요약 */
+html .editOptions input#wpSummary {
+  background-color: #303030;
+  color: #ddd;
+}
+/* 2-3-4. 편집 버튼 글자색 */
+#wpSave,
+#wpPreview,
+#wpDiff {
+  color: #ddd;
+}
+#wpSave:hover,
+#wpSave:active,
+#wpPreview:hover,
+#wpPreview:active,
+#wpDiff:hover,
+#wpDiff:active {
+  color: #fff;
+}
+#wpSave {
+  background-color: #0275d8;
+}
+#wpPreview {
+  background-color: #4bb0ce;
+}
+#wpDiff {
+  background-color: #e09d3e;
+}
+#wpSave:hover,
+#wpSave:active {
+  background-color: #025aa5;
+}
+#wpPreview:hover,
+#wpPreview:active {
+  background-color: #29a7cd;
+}
+#wpDiff:hover,
+#wpDiff:active {
+  background-color: #d58f07;
+}
+/* /2-3 */
+/* 2-4. 보기 모드 */
+pre {
+  background-color: #333;
+  color: #aaa;
+}
+code {
+  background-color: #333;
+  color: #ff4747;
+}
+.mw-highlight .nn {
+  color: rgb(0, 100, 255);
+}
+.mw-highlight .nc {
+  color: rgb(10, 200, 255);
+}
+.Liberty .content-wrapper .liberty-content .liberty-content-main .catlinks {
+  margin-top: 0.8rem;
+}
+/* /2-4 */
+/* 2-5. 상단바 */
+.navbar #searchInput {
+  background-color: #303030;
+  color: #ddd;
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #303030;
+}
+.suggestions .suggestions-special,
+.suggestions .suggestions-results {
+  background-color: #222;
+}
+.suggestions .suggestions-special .special-label,
+.suggestions .suggestions-result {
+  color: #ddd;
+}
+.suggestions .suggestions-special .special-query {
+  color: #fff;
+}
+.suggestions .suggestions-result-current {
+  background-color: #303030;
+  color: #fff;
+}
+/* /2-5 */
+/* 2-6. 검색 */
+.mw-search-profile-tabs {
+  background-color: #222;
+}
+.search-types .current a {
+  color: #ddd;
+}
+#searchText > input {
+  background-color: #222;
+  color: #ddd;
+}
+#mw-searchoptions {
+  background-color: #222;
+}
+/* /2-6 */
+/* 2-7. 알림 */
+.postedit:after {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(16deg)
+    brightness(96%) contrast(109%);
+}
+.mw-notification {
+  background-color: #222;
+}
+/* /2-7 */
+/* 2-8. 최근 변경 */
+.mw-rcfilters-container .oo-ui-buttonElement > .oo-ui-buttonElement-button,
+.mw-rcfilters-container .oo-ui-textInputWidget .oo-ui-inputWidget-input,
+.mw-rcfilters-ui-overlay .oo-ui-buttonElement > .oo-ui-buttonElement-button,
+.mw-changeslist .mw-changeslist-legend {
+  background-color: #303030;
+  color: #ddd;
+}
+.mw-rcfilters-container
+  .oo-ui-tagItemWidget.oo-ui-widget-enabled
+  > .oo-ui-buttonElement {
+  top: -2px;
+}
+.mw-rcfilters-container
+  .oo-ui-buttonElement
+  > .oo-ui-buttonElement-button:hover,
+.mw-rcfilters-ui-overlay
+  .oo-ui-buttonElement
+  > .oo-ui-buttonElement-button:hover {
+  background-color: #444;
+  color: #fff;
+}
+.mw-rcfilters-ui-overlay
+  .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active
+  > .oo-ui-buttonElement-button {
+  background-color: #2a4b8d;
+  color: #fff;
+  border-color: #2a4b8d;
+}
+.mw-rcfilters-container .oo-ui-buttonSelectWidget {
+  background-color: #303030;
+}
+.mw-rcfilters-ui-overlay .mw-rcfilters-ui-filterMenuHeaderWidget-header,
+.mw-rcfilters-ui-overlay .mw-rcfilters-ui-menuSelectWidget-footer,
+.mw-rcfilters-ui-overlay .oo-ui-popupWidget-popup {
+  background-color: #303030;
+}
+.mw-rcfilters-ui-overlay
+  .mw-rcfilters-ui-filterMenuOptionWidget.oo-ui-flaggedElement-muted:not(.oo-ui-optionWidget-selected) {
+  background-color: #444;
+}
+.mw-rcfilters-ui-overlay .mw-rcfilters-ui-filterMenuSectionOptionWidget {
+  background-color: #555;
+}
+.mw-rcfilters-container
+  .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title,
+.mw-rcfilters-ui-overlay .mw-rcfilters-ui-filterMenuHeaderWidget-title,
+.mw-rcfilters-ui-overlay
+  .mw-rcfilters-ui-viewSwitchWidget
+  label.oo-ui-labelWidget,
+.mw-rcfilters-ui-overlay .mw-rcfilters-ui-itemMenuOptionWidget-label-title,
+.mw-rcfilters-ui-overlay
+  .mw-rcfilters-ui-filterMenuSectionOptionWidget-header-title.oo-ui-labelElement-label {
+  color: #ddd;
+}
+.mw-rcfilters-ui-overlay .mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
+  color: #777;
+}
+/* /2-8 */
+/* 2-9. 비교 */
+html td.diff-context {
+  background: #222;
+  background-color: #222;
+  border-color: #303030;
+  color: #ddd;
+}
+/* /2-9 */
+/* /2 */
+
+/* 3. 소셜 버튼이 상단 여백을 너무 크게 만듬 : 소셜 버튼 화면 우하단 고정 */
+.Liberty
+  .content-wrapper
+  .liberty-content
+  .liberty-content-main
+  .social-buttons {
+  position: fixed;
+  top: 80%;
+  left: -16.4%;
+}
+/* /3 */
+
+/* 4. 주석 Ordered List로 */
+li[id^="cite_note"] {
+  list-style: decimal;
+}
+/* /4 */

@@ -1,0 +1,12 @@
+* icon=edit | display=편집 안내
+** icon=book | display=도움말 | link=DSMWIKI:도움말 | title=DSMWIKI:도움말
+** icon=comment | display=질문방 | link=DSMWIKI:질문방 | title=DSMWIKI:질문방
+** icon=bug | display=버그 제보 | link=https://github.com/dsmhs/dsmwiki/issues | title=https://github.com/dsmhs/dsmwiki/issues
+** icon=exclamation-circle | display=버그 제보 방법 | link=도움말:버그_제보_방법 | title=도움말:버그_제보_방법
+* icon=wrench | display=도구
+** icon=upload | display=파일 올리기 | link=특수:올리기 | title=특수:올리기
+** icon=folder | display=파일 목록 | link=특수:파일목록 | title=특수:파일목록
+** icon=gear | display=특수 문서 목록 | link=특수:특수문서 | title=특수:특수문서
+** icon=pagelines | display=가리키는 글의 최근 바뀜 | link=특수:링크최근바뀜 | title=특수:링크최근바뀜
+** icon=puzzle-piece | display=외톨이 문서 목록 | link=특수:외톨이문서 | title=특수:외톨이문서
+** icon=signal | display=위키 통계 | link=특수:통계 | title=특수:통계
